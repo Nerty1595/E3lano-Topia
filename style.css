@@ -556,7 +556,7 @@ padding: 10px 0;
     text-decoration: none;
 }
 .footer-column p:hover {
-    color: #bcb4b4;
+      color: #cfc5c5;
 }
 
 .footer-column a:hover {
@@ -564,15 +564,15 @@ padding: 10px 0;
 }
 .face:hover {
 
-  color: rgb(179, 165, 165);
+  color: #cfc5c5;
 }
 .twit:hover {
 
-  color: rgb(179, 165, 165);
+  color: #cfc5c5;
 }
 .insta:hover {
 
-  color: rgb(179, 165, 165);
+      color: #cfc5c5;
 }
 
 .footer-bottom {
@@ -619,8 +619,8 @@ font-size: 10px;
   }
   .footer-column a:hover{
 text-decoration: none;
-    color: #5a5959
-  }
+color: #cfc5c5;
+}
   .footer-services{
     padding-top: 20px;
 
