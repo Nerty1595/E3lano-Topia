@@ -78,7 +78,7 @@
 
 .nav-links a {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: rgb(45 45 45);
+  color: rgb(151, 149, 149);
   text-decoration: none;
   font-size: 18px;
   transition: color 0.3s ease;
@@ -95,7 +95,7 @@
 
 
 .background {
-    background-image: url('/image/headerbg.png');
+    background-image: url('/image/headerbg1.png');
     background-size: cover;
     background-position:center;
     height: 90vh;
