@@ -38,6 +38,7 @@
       width: 1170px;
     }
   }
+  
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -64,11 +65,7 @@
   margin-left: -100px;
   margin-top: 10px; 
 }
-.logo img:hover {
-  width: 60px; 
-  margin-left: -100px; 
-  margin-top: 10px; 
-}
+
 
 .nav-links {
   list-style: none;
@@ -131,12 +128,11 @@
     margin-bottom: 70px  ;
 }
 .knowalge { 
-  font-size: 50px;
+  font-size: 45px;
   font-family: Roboto, sans-serif;
   text-align: center;
   text-shadow: #262424 1px 1px 1px;
-  margin-top: 50px;
-  color: #ebdfdf;
+  color: #f3efef;
 }
 
 .logos-slide {
@@ -422,18 +418,17 @@ margin-right: 50px;
   display: block;
   margin: auto;
 }
-.container4 h1{
+
+.container4 h1 {
   font-size: 50px;
-  font-family: roboto ;
+  font-family: Roboto, sans-serif;
   text-align: center;
   margin-bottom: 60px;
   color: #28292c;
-  font-size: 50px ;
-  text-align: cenrightter;
-  line-height: 1.75rem;
-      font-weight:  600;
-      padding: 20px 10px; 
+  font-weight: 600;
+  padding: 20px 10px;
 }
+
 @keyframes move {
   0% {
     transform: translateX(0);
@@ -448,46 +443,49 @@ margin-right: 50px;
 
 .container4 .statics {
   display: flex;
-  justify-content: space-around;
+  justify-content: center; /* Center the boxes */
   align-items: center;
   padding: 10px;
+  flex-wrap: wrap;
+  gap: 20px; /* Space between the boxes */
 }
 
 .statics-box {
   background-color: #3f3f3f;
   border-radius: 25px;
   width: 280px;
-  box-shadow: 0 10px 20px hsla(0, 0%, 0%, 0.741);
+  box-shadow: -3px 2px 27.5px 12px #c6c6c6;  height: 112px;
   height: 112px;
   color: white;
   text-align: center;
   transition: all 0.3s;
-  margin-right: 5px;
-  animation: move 5s infinite; 
+  margin: 10px; /* Additional margin to ensure spacing */
+  animation: move 10s infinite;
 }
 
+.statics-box:hover {
+  background-color: #3f3f3f;
+  transition: all 0.3s;
+scale: 1.12;
+box-shadow: -4px 5px 22.5px -1px #636262;
+
 
   
-  .statics-box:hover {
-    background-color: #3a3939d0;
-     transition: all 0.3s;
-    scale: 1.07;
-    box-shadow: 0 60px 80px rgb(58, 58, 58);
-  }
-  
-  .earnings-title {
-    font-family: 'Inter', Helvetica, Roboto, 'Segoe UI', Oxygen, Ubuntu, sans-serif;
-      color: #ffffff;
-      margin-top: 5px;
-    font-size: 20px;  
-  }
-  
-  .earnings-value {
-    font-family: 'Inter', Helvetica, Roboto, 'Segoe UI', Oxygen, Ubuntu, sans-serif;
-    color: #ffffff;
-margin-top: 10px;
-    font-size: 45px; 
-  }
+}
+
+.earnings-title {
+  font-family: 'Inter', Helvetica, Roboto, 'Segoe UI', Oxygen, Ubuntu, sans-serif;
+  color: #ffffff;
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+.earnings-value {
+  font-family: 'Inter', Helvetica, Roboto, 'Segoe UI', Oxygen, Ubuntu, sans-serif;
+  color: #ffffff;
+  margin-top: 10px;
+  font-size: 45px;
+}
 
 
 
