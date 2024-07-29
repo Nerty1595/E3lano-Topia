@@ -294,12 +294,24 @@
       <div class="footer-bottom">
           <p>&copy; 2024 E3lanoTopia. All rights reserved.</p>
       </div>
-  </footer>
-    <script>
+  </footer> 
+  <!-- i wanna make a diffrent color for the nav bar when i scroll down -->
+     <script>
       
       var copy = document.querySelector(".logos-slide3").cloneNode(true);
       document.querySelector(".logos3").appendChild(copy);
 
+    </script>
+    <script>
+      document.addEventListener('scroll', () => {
+        const nav = document.querySelector('.navbar');
+
+        if (window.scrollY > 0) {
+          nav.classList.add('scrolled');
+        } else {
+          nav.classList.remove('scrolled');
+        }
+      });
     </script>
     <script src="script.js"></script>
 
